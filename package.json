@@ -1,0 +1,28 @@
+{
+  "name": "iagtheme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx mix watch",
+    "start": "node server.js",
+    "dev": "npm run start & npm run watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "laravel-mix": "^6.0.6",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^8.0.2"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.1.0",
+    "bootstrap": "^5.0.0-beta1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "postcss": "^8.2.2"
+  }
+}
